@@ -20,7 +20,7 @@ Things I could've worked on/done better:
   - Cleaner code: The code works, but because I had other projects and kind of had to work on this one intervally, my code is a bit messy. I'm sure there a a few lines of code that are not needed
 
 Things I like about the site:
-  - The font is nice, and I think the color scheme is nice despite the boldness.
+  - The fonts are nice, and I think the color scheme is nice despite the boldness.
   - I really like how the logos in the footer turned out.
   - I like the shop items even though they're not clickable. I think the layout is nice.
   - Even though certain parts of the site are definitely unfinished, I like the overall cleanliness of the site. (Minus the home banner) 
