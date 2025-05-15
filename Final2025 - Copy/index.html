@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<!--- Started 4-15-25 -> 5 mins
+	  Next edit 4-16-25 -> 5:13pm - 9:45pm
+	  Next: 4-17-25 (Planning)5:24 - 5:40 (Coding) 5:35 - 5:40
+	  Next: 4-18-25 (coding) 9:39am - 12:30pm
+	  
+	  stock image site: https://www.dreamstime.com/photos-images/store-spiderman.html
+	  --->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" type="image/x-icon" href="images/faviconDraft.png">
+    <title>Nerden Home</title>
+	<link href="xam_layout.css" rel="stylesheet" />
+	<link href="xam_styles.css" rel="stylesheet" />
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Delius&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+	
+	<style>
+	
+		main{
+			background-color: #ffa387;
+			padding-bottom: 10px;
+		}
+		
+		section.sitePara{
+			background-image: url("images/marvel_tins.jpg");
+			border-radius: 10px;
+			padding: 60px 10px 60px 10px;
+			color: #731414;
+			
+		}
+		
+		section.sitePara p{
+			padding: 70px 60px 70px 60px;
+			background-color: #faf8f090;
+			border-radius: 15px;
+		}
+	
+		p#demo{
+			margin: 0px;
+			padding: 10px 0px 10px 0px;
+			background-color: #f5f3bf;
+			color: #d94141;
+			font-family: "Special Gothic Expanded One", sans-serif;
+		}
+	
+		div.couponHolder{
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: space-around;
+			align-items: center;
+			padding: 10px 10px 10px 10px;
+			background-color: #fcfbdc;
+			margin: 10px 5% 10px 5%;
+			border-radius: 10px;
+		}
+	
+		div.couponHolder img{
+			border-radius: 10px;
+			width: 50%;
+			height: 2%;
+		}
+	</style>
+
+</head>
+
+<body>
+
+<!--- This is the main header--->
+	<header>
+	
+			<img src="images\xam_nerdenLogo.png" alt="Nerden Logo">
+		
+	<!--- The main nav and the text link nav are in a div to lay them out a certain way --->	
+		<div class="navHolder">
+		<!--- This is the text link nav --->
+				<nav id="textlinks">
+					<ul class="headerNav">
+						<li><a href="xxx_links.html" title="similarLinks">Similar Stores</a></li>
+						<li><a href="xxx_form.html" title="Client Feedback"> Customer Feedback</a></li>
+						<li><a href="xam_jobs.html" title="Contact Page"> Jobs </a></li>
+						<li><a href="xam_trade.html" title="Donate of Sell"> Donate or Sell </a></li>
+					</ul>
+				</nav>
+				
+		<!--- This is the main Navigation Bar ---> 
+		
+				<nav class="mainNav">
+					<ul class="headerNav">
+						<li><a href="index.html" title="Home Page"> NERDEN</a></li>
+						<li><a href="xxx_product.html" title="Shop"> SHOP</a></li>
+						<li><a href="xxx_table.html" title="Events"> EVENTS</a></li>
+						<li><a href="xxx_contact.html" title="Contact"> CONTACT US </a></li>
+					</ul>
+				</nav>
+		
+		</div>
+	</header>
+	
+	<script>
+		let dropDay = new Date("Aug 23, 2040 24:00:00").getTime();
+		
+		let x = setInterval(function () {
+
+			// Getting current time in required format
+			let currentTime = new Date().getTime();
+
+			// Calculating the difference
+			let timeDiff = dropDay - currentTime;
+
+			// Getting value of days, hours, minutes, seconds
+			let days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+			let hours = Math.floor(
+				(timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			let minutes = Math.floor(
+				(timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+			let seconds = Math.floor(
+				(timeDiff % (1000 * 60)) / 1000);
+
+			// Output the remaining time
+			document.getElementById("demo").innerHTML = "New Figures drop + restock: " +
+				days + "d " + hours + "h " +
+				minutes + "m " + seconds + "s ";
+
+			// Output for over time
+			if (timeDiff < 0) {
+				clearInterval(x);
+				document.getElementById("demo")
+					.innerHTML = "EXPIRED";
+			}
+		}, 1000);
+	</script>
+	
+	<p id="demo" style="font-size: 25px; text-align: center;"> </p>
+
+	<main>
+		<section class="sitePara">
+			<p> Here at Nerden we have a selection of all kinds of geeky stuff! Comics, Manga, Apparel, Collectible
+			figures, you name it. Whether you've been collecting for years or just happened to pick up
+			a manga yesterday, you're a part of the community! </p>
+		</section>
+
+		<section>
+		
+			<div class="couponHolder">
+				<img src="images/nAd.jpeg" alt="weekly ad poster" height="350px">
+				<p> Get 25% off your next in-store purchase! Just present the coupon to the 
+				cashier </p>
+			</div>
+			
+			<div class="couponHolder">
+				<p> Get prepared for our biggest Flash Sale! Sale items include comics, manga, posters, buttons, and more!</p>
+				<img src="images/salePoster.jpg" alt="Sale Poster" height="350px">
+			</div>
+			
+		</section>
+	
+	</main>
+
+	<footer>
+		<div class="linksHolder">
+			<div class="miniHolder">
+				<a href="xxx_design.html" title="Design Document" target="_blank" rel="noopener"> Design Document </a>
+				<a href="https://www.tccd.edu/" title="TCCD link"> TCC Home </a>
+			</div>
+			
+			<div class="miniHolder">
+				<a href="mailto:nerdentalk@nerden.com" title="Nerden Email"> nerdentalk@nerden.com </a>
+				<a href="xxx_sitemap.html" title="Site Map"> Site Map </a>
+			</div>
+			
+		</div>
+		
+		<div>
+			<img src="images\facebook.png" alt="Facebook Logo" height="100px"> 
+			<img src="images\twitter.png" alt="Twitter Logo" height="100px"> 
+			<img src="images\insta.png" alt="Instagram Logo" height="100px"> 
+			<img src="images\tiktok.png" alt="TikTok Logo" height="100px"> 
+			<a href="mailto:nerdentalk@nerden.com" title="nerden email icon" > <img src="images\email.png" alt="Email Icon" height="100px"> </a>
+		</div>
+		
+		<p id="date"><script src="date.js"> 
+		</script> </br>
+		
+		<script src="xam_lastUpdate.js"> </script> </br> 
+		This website is best viewed on PC - Thank you!</p>
+		
+		
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,531 @@
+/*  xam_styling.css 
+	This stylesheet is for the styles of the site
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Special+Gothic+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic&display=swap');
+
+/* This is for small/mobile devices */
+	@media screen and (max-width:1200px){
+		
+		body{
+			background-color: #fcfceb;
+		}
+		
+		main{
+			background-color: #ffa387;
+		}
+		
+		header img{
+			border-bottom: solid 5px #c25d5d;
+			border-image: linear-gradient(to right, #facf57 0%, #c25d5d 100%) 1;
+			clip-path: circle(60%);
+		}
+		
+		main.shopItems{
+			background-color: #ffa387;
+		}
+		
+		main.shopItems table{
+			background-color: #faf9e8;
+			border-radius: 10px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		
+		main.shopItems table th{
+			color: #fcfbcc;
+			background-color: #de5f5f;
+			border-radius: 5px;
+			font-weight: 300;
+		}
+		
+		main.shopItems table img{
+			border-radius: 10px;
+			border: 2px solid #de5f5f;
+			padding: 2px 2px 2px 2px;
+		}
+		
+		
+		aside.shopBar{
+			background-color: #de5f5f;
+			font-family: "Oswald", sans-serif;
+		}
+		
+		aside.shopBar ul{
+			padding-left: 20px;
+		}
+		
+		aside.shopBar ul li{
+			list-style-type: none;
+			/* padding: 10px 0px 0px 0px; */
+		}
+		
+		aside.shopBar a{
+			text-decoration:none;
+			color: #fcfbcc;
+		}
+		
+		nav.mainNav{
+			background-color: #d94141;
+			border-radius: 5px;
+			border-bottom: solid 3px #c25d5d;
+			border-image: linear-gradient(to right,	#facf57 10%, #c25d5d 100%) 1;
+		}
+		
+		nav.mainNav ul li a{
+			color: #f5f3bf;
+		}
+	
+		ul.headerNav{
+			font-family: "Oswald", sans-serif;
+			font-size: 25px;
+		}
+		
+		nav#textlinks li{
+			font-size: 17px;
+		}
+		
+		ul.headerNav li {
+			list-style-type: none;
+		}
+		
+		ul.headerNav li a{
+			color: #faf8f0;
+			text-decoration: none;
+		}
+		section.sitePara{
+			text-align: center;
+			color: #381f13;
+			font-family: "Oswald", sans-serif;
+			font-weight: 500;
+		}
+		
+		section#contactBody{
+			background-color: #ffa387;
+			color: #731414;
+		}
+		
+		section.sitePara ul li{
+			list-style-type: none;
+		}
+		
+		div#hours{
+			background-color: #fcfbdc;
+			border-radius: 10px;
+			margin: 5px 30% 5px 30%;
+			font-family: "Special Gothic Expanded One", sans-serif;
+			font-weight: 300;
+		}
+		
+		div#contactLinks div{
+			background-color: #fcfbdc;
+			border-radius: 10px;
+			font-family: "Special Gothic Expanded One", sans-serif;
+			font-weight: 300;
+		}
+		
+		
+		div#contactHeader{
+			background-color: #fcfbdc;
+			font-size: 30px;
+			border-radius: 15px;
+		}
+		
+		div#contactHeader h1{
+			color: #731414;
+			font-family: "Special Gothic Expanded One", sans-serif;
+			font-weight: 300;
+		}
+		
+		
+		main#eventBody{
+			background-color: #ffa387;
+		}
+		
+		div#eventHeader{
+			background-color: #fcfbdc;
+		}
+		
+		div#eventHeader h1{
+			color: #731414;
+			font-family: "Special Gothic Expanded One", sans-serif;
+			font-size: 50px;
+			margin: 10px 10px 10px 10px;
+			padding: 10px 10px 10px 10px;
+			border-radius: 10px;
+			font-weight: 300;
+		}
+		
+		
+		div.couponHolder{
+			font-family: "Oswald", sans-serif;
+			font-weight: 500;
+			font-size: 20px;
+			text-align: center;
+		}
+		
+		table#eventSch{
+			background-color: #fcd1b8;
+			border: solid 3px #f2816b;
+			border-collapse: collapse;
+			font-family: "Special Gothic", sans-serif;
+			font-weight: 500;
+		}
+		
+		table#eventSch th{
+			background-color: #d94141;
+			font-family: "Special Gothic Expanded One", sans-serif;
+			font-weight: 250;
+		}
+		
+		table#eventSch td a{
+			color: #822626;
+			text-decoration: none;
+		}
+		
+		div.eventInfo{
+			background-color:  #fcfbdc;
+			border-radius: 10px;
+		}
+		
+		div.eventInfo h2{
+			background-color: #d94141;
+			border-radius: 10px;
+		}
+		
+		div.eventInfo p{
+			font-family: "Special Gothic", sans-serif;
+			font-weight: 500;
+		}
+		
+		nav#textlinks li a{
+			color: #c25d5d;
+			text-decoration: none;
+		}
+		
+		form{
+			margin: 0px 15% 0px 15%;
+
+		}
+		
+		form fieldset{
+			background-color: #FAF8F0;
+			border: none;
+			border-radius: 15px;
+		}
+		
+		form fieldset label{
+			padding: 0px 2px 5px 2px;
+		}
+		
+		form fieldset input{
+			margin: 5px 2px 7px 2px;
+		}
+		
+		legend{
+			background-color: #f5e3bf;
+			border-radius: 5px;
+			border: none;
+		}
+		
+		main#formBody{
+			background-color: #ffa387;
+		}
+		
+		footer{
+			background-color: #d94141;
+			border-radius: 5px;
+		}
+		
+		footer a{
+			color: #f5f3bf;
+			text-decoration: none;
+			font-family: "Oswald", sans-serif;
+			font-weight: 300;
+		}
+		
+		p#date{
+			color: #f5f3bf;
+			font-family: "Special Gothic Expanded One", sans-serif;
+		}
+	}
+
+
+
+
+/* This is for PC or certain tablets on landscape mode*/
+	@media screen and (min-width:1200px){
+		
+		body{
+			background-color: #fcfceb;
+		}
+		
+		main{
+			padding: 10px 0px 10px 0px;
+			background-color: #ffa387;
+		}
+		
+		main.shopItems{
+			background-color: #ffa387;
+		}
+		
+		main.shopItems table{
+			background-color: #fcfbdc;
+			border-radius: 10px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		
+		main.shopItems table th{
+			color: #fcfbcc;
+			background-color: #de5f5f;
+			border-radius: 5px;
+			font-weight: 300;
+		}
+		
+		main.shopItems table img{
+			border-radius: 10px;
+			border: 2px solid #de5f5f;
+			padding: 2px 2px 2px 2px;
+		}
+		
+		header img{
+			border-bottom: solid 5px #c25d5d;
+			border-image: linear-gradient(to right, #facf57 0%, #c25d5d 100%) 1;
+			clip-path: circle(60%);
+		}
+		
+		aside.shopBar{
+			background-color: #de5f5f;
+			font-family: "Oswald", sans-serif;
+		}
+		
+		aside.shopBar ul{
+			padding-left: 20px;
+		}
+		
+		aside.shopBar ul li{
+			list-style-type: none;
+			padding: 10px 0px 0px 0px;
+		}
+		
+		aside.shopBar a{
+			text-decoration:none;
+			color: #fcfbcc;
+		}
+		
+		aside.shopBar a:hover{
+			color: #f2d5b3;
+		}
+		
+		nav.mainNav{
+			background-color: #d94141;
+			border-radius: 5px;
+			border-bottom: solid 3px #c25d5d;
+			border-image: linear-gradient(to right,	#facf57 10%, #c25d5d 100%) 1;
+		}
+		
+		nav.mainNav ul li a{
+			color: #f5f3bf;
+		}
+		
+		nav.mainNav ul li a:hover{
+			color: #f2d5b3;
+		}
+		
+		nav#textlinks li a{
+			color: #c25d5d;
+			text-decoration: none;
+		}
+		
+		nav#textlinks li a:hover{
+			color: #8a2f2f;
+		}
+	
+		ul.headerNav{
+			font-family: "Oswald", sans-serif;
+			font-size: 25px;
+		}
+		
+		nav#textlinks li{
+			font-size: 17px;
+		}
+		
+		ul.headerNav li {
+			list-style-type: none;
+		}
+		
+		ul.headerNav li a{
+			color: #faf8f0;
+			text-decoration: none;
+		}
+		section.sitePara{
+			text-align: center;
+			color: #381f13;
+			font-family: "Oswald", sans-serif;
+			font-weight: 500;
+		}
+		
+		section#contactBody{
+			background-color: #ffa387;
+			color: #731414;
+		}
+		
+		section.sitePara ul li{
+			list-style-type: none;
+		}
+		
+		div#hours{
+			background-color: #fcfbdc;
+			border-radius: 10px;
+			margin: 5px 30% 5px 30%;
+			font-family: "Special Gothic Expanded One", sans-serif;
+			font-weight: 300;
+			padding: 10px 0px 10px 0px;
+		}
+		
+		div#contactLinks div{
+			background-color: #fcfbdc;
+			border-radius: 10px;
+			font-family: "Special Gothic Expanded One", sans-serif;
+			font-weight: 300;
+		}
+		
+		
+		div#contactHeader{
+			background-color: #fcfbdc;
+			font-size: 30px;
+			border-radius: 15px;
+		}
+		
+		div#contactHeader h1{
+			color: #731414;
+			font-family: "Special Gothic Expanded One", sans-serif;
+			font-weight: 300;
+		}
+		
+		div#contactHeader img{
+			border-radius: 10px;
+			clip-path: circle(120% at right);
+		}
+		
+		main#eventBody{
+			background-color: #ffa387;
+		}
+		
+		div#eventHeader{
+			background-color: #fcfbdc;
+			clip-path: circle(130% at left);
+		}
+		
+		div#eventHeader h1{
+			color: #731414;
+			font-family: "Special Gothic Expanded One", sans-serif;
+			font-size: 50px;
+			margin: 10px 10px 10px 10px;
+			padding: 10px 10px 10px 10px;
+			border-radius: 10px;
+			font-weight: 300;
+		}
+		
+		div#eventHeader img{
+			background-color: #f2edd8;
+			clip-path: circle(100% at left);
+		}
+		
+		div.couponHolder{
+			font-family: "Oswald", sans-serif;
+			font-weight: 500;
+			font-size: 20px;
+			text-align: center;
+		}
+		
+		table#eventSch{
+			background-color: #fcd1b8;
+			border: solid 3px #f2816b;
+			border-collapse: collapse;
+			font-family: "Special Gothic", sans-serif;
+			font-weight: 500;
+		}
+		
+		table#eventSch th{
+			background-color: #d94141;
+			font-family: "Special Gothic Expanded One", sans-serif;
+			font-weight: 250;
+		}
+		
+		table#eventSch td a{
+			color: #822626;
+			text-decoration: none;
+		}
+		
+		div.eventInfo{
+			background-color: #fcfbdc;
+			border-radius: 10px;
+		}
+		
+		div.eventInfo p{
+			font-family: "Special Gothic", sans-serif;
+			font-weight: 500;
+		}
+		
+		div.jobPara{
+			background-color: #fcfbdc;
+			border-radius: 10px;
+			}
+			
+		div.jobPara p{
+			font-family: "Special Gothic", sans-serif;
+			font-weight: 500;
+		}
+		
+		
+		form{
+			margin: 0px 15% 0px 15%;
+
+		}
+		
+		form fieldset{
+			background-color: #FAF8F0;
+			border: none;
+			border-radius: 15px;
+		}
+		
+		form fieldset label{
+			padding: 0px 2px 5px 2px;
+		}
+		
+		form fieldset input{
+			margin: 5px 2px 7px 2px;
+		}
+		
+		legend{
+			background-color: #f5e3bf;
+			border-radius: 5px;
+			border: none;
+		}
+		
+		main#formBody{
+			background-color: #ffa387;
+		}
+		
+		footer{
+			background-color: #d94141;
+			border-radius: 5px;
+		}
+		
+		footer a{
+			color: #f5f3bf;
+			text-decoration: none;
+			font-family: "Oswald", sans-serif;
+			font-weight: 300;
+		}
+		
+		p#date{
+			color: #f5f3bf;
+			font-family: "Special Gothic Expanded One", sans-serif;
+		}
+		
+	}
