@@ -8,7 +8,7 @@ NOTES:
   - As stated in the Design Document, quite a few images are from the FreePik site. They are under a Free License. 
 
 Extras that I did not get to do:
-  - I wanted to do a full form for the Jobs page where the user could fill out an appkication and "apply" (it wouldn't go through, since no back-end programming was involved) for a job.
+  - I wanted to do a full form for the Jobs page where the user could fill out an application and "apply" (it wouldn't go through, since no back-end programming was involved) for a job.
   - Similar to the job form, I wanted to create a form for the "events" artist pop-up section. I though that would've been a neat addition.
   - More in-depth form validation (phone number pattern, perhaps some sort of DOB validation on certain forms, etc.)
   - Clickable shop items, right now they are just images. 
