@@ -1,5 +1,5 @@
 # Nerden
-This was my final project for a web class this past Spring semester. I will admit, certain pages are much more polished than others. Overall, I am happy with how ti tured out despite the parts that I'm sure I could work on a bit more. 
+This was my final project for a web class this past Spring semester. I will admit, certain pages are much more polished than others. Overall, I am happy with how it turned out despite the parts that I'm sure I could work on a bit more. 
 
 
 NOTES:
