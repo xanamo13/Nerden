@@ -23,4 +23,7 @@ Things I like about the site:
   - The fonts are nice, and I think the color scheme is nice despite the boldness.
   - I really like how the logos in the footer turned out.
   - I like the shop items even though they're not clickable. I think the layout is nice.
-  - Even though certain parts of the site are definitely unfinished, I like the overall cleanliness of the site. (Minus the home banner) 
+  - Even though certain parts of the site are definitely unfinished, I like the overall cleanliness of the site. (Minus the home banner)
+
+
+~ Ximena Anahi Morales, xamorales19@gmail.com
